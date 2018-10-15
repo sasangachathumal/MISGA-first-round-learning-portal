@@ -29,7 +29,7 @@ $this->load->helper('url');
 	<div class="row">
 	    <br/>
         <div class="panel panel-warning">
-             <div class="panel-heading">  
+            <div class="panel-heading">  
                  <strong style="font-size: 17px">Q 01.</strong> 
                  <div  style="font-size: 16px">
                  HTML stands for?
@@ -42,9 +42,9 @@ $this->load->helper('url');
            <div class="funkyradio">
 <ul class = "list-group">
     <li class = "list-group-item">
-    <div class="funkyradio-warning">
-            <input type="checkbox" name="checkbox" id="check1" />
-            <label for="check1">Hyper Text Markup Language</label>
+     <div class="funkyradio-warning">
+        <input type="checkbox" name="checkbox" id="check1" />
+       <label for="check1">Hyper Text Markup Language</label>
         </div>
     </li>
     <li class = "list-group-item">

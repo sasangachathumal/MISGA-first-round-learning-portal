@@ -141,3 +141,20 @@
     margin-right: auto;
     width: 40%;
 }
+.purple-border textarea {
+  border: 1px solid #ba68c8;
+}
+.purple-border .form-control:focus {
+  border: 1px solid #ba68c8;
+  box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+}
+
+.green-border-focus .form-control:focus {
+  border: 1px solid #b1c34a;
+  box-shadow: 0 0 0 0.2rem rgba(183, 195, 74, 0.25);
+}
+.textarea {
+  resize: none;
+}
+.right{display:block; width:x; height:y; text-align:right;
+  padding: 8px 0px;}
