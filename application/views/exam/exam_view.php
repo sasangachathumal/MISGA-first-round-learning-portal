@@ -10,18 +10,18 @@ $this->load->helper('url');
         <title>Test Messages</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url(); ?>resources/css/quiz.css" />
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="build.css">
-        <!------ Include the above in your HEAD tag ---------->
-
-
-        <script src="main.js"></script>
+ 	    <link href="<?php echo base_url(); ?>resources/css/bootstrap.css" rel='stylesheet' type='text/css' id="bootstrap-css"/>
+        <script src="<?php echo base_url(); ?>resources/js/bootstrap-3.1.1.min"></script>
+        <script src="<?php echo base_url(); ?>resources/js/jquery-1.11.1.min.js"></script>
+        <link rel="stylesheet" href="<?php echo base_url(); ?>resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>resources/css/font-awesome.min.css">
+	    <link href="<?php echo base_url(); ?>resources/css/font-awesome.css" rel="stylesheet">
+        <!--<link rel="stylesheet" href="build.css">-->
+        <script src="<?php echo base_url(); ?>resources/js/main.js"></script>
+        <link href="//fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Mallanna" rel="stylesheet">
     </head>
-    <body background="<?php echo base_url(); ?>resources/images/quiz_bg.jpg">
+    <body style="background-color:#009688">
         <!-- <h3 style="text-align: center">
             [[Subject]] - Exam
         </h3> --><br><br>
@@ -105,8 +105,12 @@ $this->load->helper('url');
 
                     </div>
                     
-                    <div class="panel-footer">
-                        <center> <a class="btn btn-success" href="" >&nbsp;&nbsp;Submit&nbsp;&nbsp;</a></center>
+                    <div class="panel-footer">	
+                        <center>
+                            <div class="banner-info-w3ls-agileinfo"> 
+								<a href="">Submit&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i></a>
+							</div>                       
+                        </center>
                     </div>
                 </div>
                 
