@@ -33,15 +33,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 
 <body>
-	<!--Header-->
-	<div class="top-bar_sub_w3layouts_agile">
-		<h6>MAKE CREATIVITY A HABIT <a href="contact.html">Contact Us </a></h6>
-		<div class="search">
-			<!-- <h5><a class="sign" href="#" data-toggle="modal" data-target="#myModal2">Student Login</a></h5> -->
+	<div class="header inner_banner title" id="home">
+		<!--/top-bar-->
+		<div class="top-bar">
+			<div class="header-nav-agileits">
+			<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<h1><a class="navbar-brand" href="<?php echo base_url(); ?>index.php">Matrix <span>Online Education</span></a></h1>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<nav>
+							<ul class="top_nav">
+								<li><a href="<?php echo base_url(); ?>index.php">Home</a></li>
+								<li><a href="<?php echo base_url(); ?>index.php/login">Student Login</a></li>
+							</ul>
+						</nav>
+					</div>
+				</nav>
+			</div>
 		</div>
-		<div class="clearfix"> </div>
+		<!--//top-bar-->
 	</div>
-    <!--//Header-->
     <div class="banner_bottom">
 		<div class="container" style="padding-right: 70px; padding-left: 70px;">
 			<h3 class="headerw3" style="text-align: center;">Register Now</h3>
@@ -54,7 +68,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="styled-input agile-styled-input-top">
 								<select class="category2" required="">
-												<option value="">Select Course</option>
+												<option value="Mr">Mr</option>
 												<option value="">Web Designing</option>
 												<option value="">Web Technology </option>
 												<option value="">PC Systems </option>
@@ -75,6 +89,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<input id="datepicker" placeholder="Birth Date" name="Text" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"
 								    required="">
 							</div>
+							<div class="styled-input agile-styled-input-top">
+								<select class="category2" required="">
+												<option value="Male">Male</option>
+												<option value="Female">Female</option>
+												<option value="Other">Other</option>
+											</select>
+								<span></span>
+							</div>
 						</div>
 						<input type="submit" value="Submit">
                     </form>
@@ -85,8 +107,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--footer-->
 	<div class="contact-footer-w3layouts-agile">
 		<div class="copy-w3-agileits">
-			<h2 class="footer-logo"><a href="index.html">Stretch <span>Online Education</span></a></h2>
-			<p>© 2018 Stretch . All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a> </p>
+			<h2 class="footer-logo"><a href="index.html">Matrix <span>Online Education</span></a></h2>
+			<p>© 2018 Matrix Online Education . All Rights Reserved | Design by Zinios </p>
 			<div class="clearfix"></div>
 		</div>
 	</div>

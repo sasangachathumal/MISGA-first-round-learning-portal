@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 ?><!--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
@@ -33,16 +33,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 
 <body>
-	<!--Header-->
-	<div class="top-bar_sub_w3layouts_agile">
-		<h6>MAKE CREATIVITY A HABIT <a href="contact.html">Contact Us </a></h6>
-		<div class="search">
-			<!-- <h5><a class="sign" href="#" data-toggle="modal" data-target="#myModal2">Student Login</a></h5> -->
+	<div class="header inner_banner title" id="home">
+		<!--/top-bar-->
+		<div class="top-bar">
+			<div class="header-nav-agileits">
+			<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<h1><a class="navbar-brand" href="<?php echo base_url(); ?>index.php">Matrix <span>Online Education</span></a></h1>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<nav>
+							<ul class="top_nav">
+								<li><a href="<?php echo base_url(); ?>index.php">Home</a></li>
+								<li><a href="<?php echo base_url(); ?>index.php/register">Register</a></li>
+							</ul>
+						</nav>
+					</div>
+				</nav>
+			</div>
 		</div>
-		<div class="clearfix"> </div>
+		<!--//top-bar-->
 	</div>
-    <!--//Header-->
-    <div class="banner_bottom" style="height: 80vh">
+    <div class="banner_bottom" style="height: 70vh">
 		<div class="container" style="padding-right: 70px; padding-left: 70px;">
 			<h3 class="headerw3" style="text-align: center;">Log in</h3>
 			<div class="inner_sec_w3_agileinfo">
@@ -59,7 +73,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<input type="submit" value="Submit">
                     </form>
-                    <p><a href="#"> Forget account?</a></p>
                     <p><a href="<?php echo base_url(); ?>index.php/register"> Don't have an account?</a></p>
 				</div>
 			</div>
@@ -68,8 +81,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--footer-->
 	<div class="contact-footer-w3layouts-agile">
 		<div class="copy-w3-agileits">
-			<h2 class="footer-logo"><a href="index.html">Stretch <span>Online Education</span></a></h2>
-			<p>© 2018 Stretch . All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a> </p>
+			<h2 class="footer-logo"><a href="index.html">Matrix <span>Online Education</span></a></h2>
+			<p>© 2018 Matrix Online Education . All Rights Reserved | Design by Zinios </p>
 			<div class="clearfix"></div>
 		</div>
 	</div>

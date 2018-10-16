@@ -10,7 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 
 <head>
-	<title>Stretch an Education Category Bootstrap responsive WebTemplate | Home :: w3layouts</title>
+	<title>Matrix Online Education</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<meta name="keywords" content="Stretch a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -33,62 +33,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 
 <body>
-	<!--Header-->
-	<div class="top-bar_sub_w3layouts_agile">
-		<h6>MAKE CREATIVITY A HABIT <a href="contact.html">Contact Us </a></h6>
-		<div class="search">
-			<h5><a class="sign" href="#" data-toggle="modal" data-target="#myModal2">Student Login</a></h5>
-			<div class="cd-main-header">
-				<ul class="cd-header-buttons">
-					<li><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
-				</ul>
-				<!-- cd-header-buttons -->
-			</div>
-			<div id="cd-search" class="cd-search">
-				<form action="#" method="post">
-					<input name="Search" type="search" placeholder="Click enter after typing...">
-				</form>
-			</div>
-		</div>
-		<div class="clearfix"> </div>
-	</div>
 	<div class="header" id="home">
 
 		<!--/top-bar-->
 		<div class="top-bar">
 			<div class="header-nav-agileits">
-
-				<nav class="navbar navbar-default">
+			<nav class="navbar navbar-default">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-						<h1><a class="navbar-brand" href="index.html">Stretch <span>Online Education</span></a></h1>
+						<h1><a class="navbar-brand" href="<?php echo base_url(); ?>index.php">Matrix <span>Online Education</span></a></h1>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						<nav>
 							<ul class="top_nav">
-								<li><a href="index.html" class="active">Home</a></li>
-								<li><a href="about.html">About</a></li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="Pages" role="button" aria-haspopup="true" aria-expanded="false">Drop Down <span class="fa fa-angle-down"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="services.html">Services</a></li>
-										<li><a href="join.html">Join now</a></li>
-									</ul>
-								</li>
-								<li><a href="courses.html">Courses</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="<?php echo base_url(); ?>index.php">Home</a></li>
+								<li><a href="<?php echo base_url(); ?>index.php/register">Register</a></li>
 							</ul>
 						</nav>
 					</div>
 				</nav>
-
 			</div>
 		</div>
 		<!--//top-bar-->
@@ -100,8 +64,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="banner-top">
 							<div class="banner-info-w3ls-agileinfo">
 								<h3>Opportunities For Lifelong Learning.</h3>
-								<a href="about.html">Read More <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-								<a href="contact.html">Contact Us <i class="fa fa-caret-right" aria-hidden="true"></i></a>
 							</div>
 
 						</div>
@@ -110,8 +72,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="banner-top1">
 							<div class="banner-info-w3ls-agileinfo">
 								<h3>Education is a path, not a destination</h3>
-								<a href="about.html">Read More <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-								<a href="contact.html">Contact Us <i class="fa fa-caret-right" aria-hidden="true"></i></a>
 							</div>
 
 						</div>
@@ -120,8 +80,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="banner-top2">
 							<div class="banner-info-w3ls-agileinfo">
 								<h3>Opportunities For Lifelong Learning.</h3>
-								<a href="about.html">Read More <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-								<a href="contact.html">Contact Us <i class="fa fa-caret-right" aria-hidden="true"></i></a>
 							</div>
 
 						</div>
@@ -130,8 +88,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="banner-top3">
 							<div class="banner-info-w3ls-agileinfo">
 								<h3>Education is a path, not a destination</h3>
-								<a href="about.html">Read More <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-								<a href="contact.html">Contact Us <i class="fa fa-caret-right" aria-hidden="true"></i></a>
 							</div>
 
 						</div>
@@ -144,83 +100,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<!--//Slider-->
 	</div>
-	<!-- Modal1 -->
-	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
-		<div class="modal-dialog">
-			<!-- Modal content-->
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-
-					<div class="signin-form profile">
-
-						<div class="login-m_page_img">
-
-							<img src="<?php echo base_url(); ?>resources/images/model.jpg" alt=" " class="img-responsive" />
-
-						</div>
-						<div class="login-m_page">
-							<h3 class="sign">Sign In</h3>
-							<div class="login-form-wthree-agile">
-								<form action="#" method="post">
-									<input type="email" name="email" placeholder="E-mail" required="">
-									<input type="password" name="password" placeholder="Password" required="">
-									<div class="tp">
-										<input type="submit" value="Sign In">
-									</div>
-								</form>
-							</div>
-							<div class="login-social-grids">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-rss"></i></a></li>
-								</ul>
-							</div>
-							<p><a href="#" data-toggle="modal" data-target="#myModal3"> Don't have an account?</a></p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //Modal1 -->
-	<!-- Modal2 -->
-	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
-		<div class="modal-dialog">
-			<!-- Modal content-->
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-
-					<div class="signin-form profile">
-
-						<div class="login-m_page_img">
-
-							<img src="<?php echo base_url(); ?>resources/images/model.jpg" alt=" " class="img-responsive" />
-
-						</div>
-						<div class="login-m_page">
-							<h3 class="sign">Sign Up</h3>
-							<div class="login-form-wthree-agile">
-								<form action="#" method="post">
-									<input type="text" name="name" placeholder="Username" required="">
-									<input type="email" name="email" placeholder="Email" required="">
-									<input type="password" name="password" placeholder="Password" required="">
-									<input type="password" name="password" placeholder="Confirm Password" required="">
-									<input type="submit" value="Sign Up">
-								</form>
-							</div>
-							<p><a href="#"> By clicking Sign up, I agree to your terms</a></p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //Modal2 -->
 
 	<!--//Header-->
 	<!--/banner_bottom-->
