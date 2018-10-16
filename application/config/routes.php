@@ -51,7 +51,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['quiz'] = 'quiz/quiz';
 $route['exam'] = 'exam/exam';
-$route['login'] = 'login/login';
+$route['login'] = 'home/login';
+$route['register'] = 'home/register';
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

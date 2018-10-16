@@ -42,25 +42,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"> </div>
 	</div>
     <!--//Header-->
-    <div class="banner_bottom" style="height: 80vh">
+    <div class="banner_bottom">
 		<div class="container" style="padding-right: 70px; padding-left: 70px;">
-			<h3 class="headerw3" style="text-align: center;">Log in</h3>
+			<h3 class="headerw3" style="text-align: center;">Register Now</h3>
 			<div class="inner_sec_w3_agileinfo">
-				<div class="signin-form">
+				<div class="register-form">
 					<form action="#" method="post">
 						<div class="fields-grid">
 							<div class="styled-input">
-								<input type="email" placeholder="User name (e-mail)" name="user_name" required="">
+								<input type="text" placeholder="Country" name="country_name" required="">
+							</div>
+							<div class="styled-input agile-styled-input-top">
+								<select class="category2" required="">
+												<option value="">Select Course</option>
+												<option value="">Web Designing</option>
+												<option value="">Web Technology </option>
+												<option value="">PC Systems </option>
+												<option value="">IT Foundations </option>
+												<option value="">HR Management </option>
+												<option value="">Modeling </option>
+												<option value="">Basic Marketing</option>
+											</select>
+								<span></span>
 							</div>
 							<div class="styled-input">
-								<input placeholder="Password" name="password" type="password" value="" required="">
+								<input type="text" placeholder="First name" name="first_name" required="">
 							</div>
-							<!-- <div class="clearfix"> </div> -->
+							<div class="styled-input">
+								<input type="text" placeholder="Surname" name="Surname" required="">
+							</div>
+							<div class="styled-input">
+								<input id="datepicker" placeholder="Birth Date" name="Text" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"
+								    required="">
+							</div>
 						</div>
 						<input type="submit" value="Submit">
                     </form>
-                    <p><a href="#"> Forget account?</a></p>
-                    <p><a href="<?php echo base_url(); ?>index.php/register"> Don't have an account?</a></p>
 				</div>
 			</div>
 		</div>
