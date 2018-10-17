@@ -1107,11 +1107,11 @@ h3.sign {
 /*-- /banner_bottom --*/
 
 .banner_bottom {
-	padding: 7em 0;
+	padding: 5em 0;
 }
 
 h3.headerw3 {
-	font-size: 3.5em;
+	font-size: 2.5em;
 	color: #262c38;
 	letter-spacing: 1px;
 	font-weight: 400;
@@ -1314,7 +1314,7 @@ p.paragraph.two {
 	text-align: center;
 	padding: 4em 2em;
 	background: #fafafa;
-	box-shadow: 0 0px 3px rgb(9, 132, 113), 0 1px 3px rgb(5, 99, 85);
+	box-shadow: 0 0px 5px  rgba(10, 137, 61, 0.604), 4px 6px 8px rgb(5, 99, 85);
 }
 
 .grid_info_main:nth-child(2) {
@@ -2164,15 +2164,25 @@ label.header {
 	.sec_video,
 	.banner_bottom.tesimonials,
 	.banner_bottom {
-		padding: 5em 0;
+		padding: 3em 0;
 	}
 	.search {
 		float: right;
 		width: 14%;
 	}
 	h3.headerw3 {
-		font-size: 3em;
+		font-size: 2.5em;
 	}
+
+	.subject-bcs-logo {
+		width: 120px !important;
+    	height: 120px !important;
+	}
+
+	.detail-container {
+		height: 120px !important;
+	}
+
 }
 
 @media(max-width:1366px) {
@@ -2217,7 +2227,7 @@ label.header {
 	.banner_bottom,
 	.bottom-social-agileits-w3ls,
 	.tesimonials {
-		padding: 4em 0;
+		padding: 2em 0;
 	}
 	.banner-top,
 	.banner-top1,
@@ -2416,8 +2426,17 @@ label.header {
 		min-height: 588px;
 	}
 	h3.headerw3 {
-		font-size: 2.8em;
+		font-size: 2.3em;
 	}
+
+	.subject-bcs-logo {
+		width: 70px !important;
+		height: 70px !important;
+	}
+	.detail-container {
+		height: 70px !important;
+	}
+
 	.copy-w3-agileits {
 		padding: 1em 1em;
 	}
@@ -2564,8 +2583,18 @@ label.header {
 		margin-top: 272px;
 	}
 	h3.headerw3 {
-		font-size: 2.6em;
+		font-size: 2.1em;
 	}
+
+	.subject-bcs-logo {
+		width: 55px !important;
+		height: 55px !important;
+	}
+
+	.detail-container {
+		height: 55px !important;
+	}
+
 	.top_spl_courses,
 	.services,
 	.what-wedo,
@@ -2574,7 +2603,7 @@ label.header {
 	.banner_bottom,
 	.bottom-social-agileits-w3ls,
 	.tesimonials {
-		padding: 3em 0px;
+		padding: 1em 0px;
 	}
 }
 
@@ -2670,8 +2699,18 @@ label.header {
 		padding-bottom: 16px;
 	}
 	h3.headerw3 {
-		font-size: 2.2em;
+		font-size: 2em;
 	}
+
+	.subject-bcs-logo {
+		width: 45px !important;
+		height: 45px !important;
+	}
+
+	.detail-container {
+		height: 45px !important;
+	}
+
 	h4.sub-hdng {
 		font-size: 1.5em;
 	}
@@ -2812,8 +2851,18 @@ label.header {
 		width: 95%;
 	}
 	h3.headerw3 {
-		font-size: 2em;
+		font-size: 1.7em;
 	}
+
+	.subject-bcs-logo {
+		width: 35px !important;
+		height: 35px !important;
+	}
+
+	.detail-container {
+		height: 35px !important;
+	}
+
 	.p-mask h4 {
 		font-size: 1.2em;
 		text-decoration: none;
@@ -2851,8 +2900,18 @@ label.header {
 		width: 99%;
 	}
 	h3.headerw3 {
-		font-size: 1.8em;
+		font-size: 1.5em;
 	}
+
+	.subject-bcs-logo {
+		width: 35px !important;
+		height: 35px !important;
+	}
+
+	.detail-container {
+		height: 35px !important;
+	}
+
 	.banner_bottom_in iframe {
 		width: 230px;
 		min-height: 126px;
@@ -2870,7 +2929,7 @@ label.header {
 	.banner_bottom,
 	.bottom-social-agileits-w3ls,
 	.tesimonials {
-		padding: 2.5em 0px;
+		padding: 0.5em 0px;
 	}
 	h4.sub-hdng {
 		font-size: 1.3em;
@@ -2923,6 +2982,72 @@ label.header {
 		width: 60%;
 		letter-spacing: 1px;
 	}
+}
+
+.detail-container {
+	display: inline-flex !important;
+	width: 100% !important;
+	height: 150px;
+}
+
+.level-card {
+	background: rgba(10, 137, 61, 0.604) !important;	
+}
+
+.level-card:hover {
+	background: rgba(30, 156, 80, 0.651) !important;	
+}
+
+.level-card h5 {
+	font-weight: bold;
+}
+.level-card P {
+	color: white !important;
+}
+
+.subject-bcs-logo {
+	width: 150px;
+    height: 150px;
+    position: absolute !important;
+}
+
+.level-bcs-logo {
+	width: 25% !important;
+}
+
+.level-name {
+	margin: auto !important;
+	text-align: center !important;
+}
+
+.subject-area {
+	margin-top: 45px !important;
+}
+
+.subject-card {
+	text-align: center;
+    padding: 1em 0.5em !important;
+    background: transparent;
+	border: 1px solid gainsboro !important;
+	box-shadow: none !important;
+}
+
+.subject-card:hover, .subject-card.active{
+	background: #dbfad4;
+}
+
+.subject-card h5 {
+	color: #333;
+	margin: 0 !important;
+    font-weight: 600;
+}
+
+.card {
+	margin-top: 30px !important;
+}
+
+.grid_info a {
+	text-decoration: none !important;
 }
 
 /*--//responsive--*/

@@ -26,7 +26,7 @@
 		<div class="container-fluid">
             <div class="detail-container">
                 <img class="subject-bcs-logo" src="<?php echo base_url(); ?>resources/images/bcs/bcs-logo.png">
-                <h3 class="headerw3 level-name">Level Name</h3>
+                <h3 class="headerw3 level-name">Level Name - Subject Name</h3>
             </div>
 		</div>
     </div>
@@ -37,7 +37,7 @@
                     <div class="grid_info">
                         <a href="Lesson/subjects">
 						    <div class="icon_info level-card">
-							    <span class="fa fa-book" aria-hidden="true"></span>
+							    <span class="fa fa-file-text" aria-hidden="true"></span>
 							    <h5>Financial Analyst Course</h5>
                                 <!-- <p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p> -->
                             </div>

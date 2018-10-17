@@ -21,6 +21,33 @@ class lesson extends CI_Controller {
 	public function index()
 	{
         $this->load->helper('url');
-		$this->load->view('lesson/lesson_view');
-	}
+        $this->load->view('header_view');
+        $this->load->view('lesson/level_view');
+        $this->load->view('footer_view');
+    }
+    
+    public function getSubjects() 
+    {
+        $this->load->helper('url');
+        $this->load->view('header_view');
+        $this->load->view('lesson/subject_view');
+        $this->load->view('footer_view');
+    }
+
+    public function getModules() 
+    {
+        $this->load->helper('url');
+        $this->load->view('header_view');
+        $this->load->view('lesson/module_view');
+        $this->load->view('footer_view');
+    }
+
+    public function getLessons() 
+    {
+        $data['content'] = $this->load->view('lesson/lesson_content_view', '', TRUE);
+        $this->load->helper('url');
+        $this->load->view('header_view');
+        $this->load->view('lesson/lesson_view', $data);
+        $this->load->view('footer_view');
+    }
 }
